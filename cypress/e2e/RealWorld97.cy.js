@@ -16,7 +16,7 @@ describe('Login com sucesso', () => {
 
 })
 
-describe.only('Tentar fazer login com credenciais inválidas', () => {
+describe('Tentar fazer login com credenciais inválidas', () => {
     beforeEach(() => {
         loginPage.acessLoginPage()
     })
