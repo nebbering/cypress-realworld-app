@@ -20,3 +20,5 @@ class LoginPage {
         cy.get(this.selectorsList().btnLogin).click()
     }
 }
+
+export default LoginPage
