@@ -74,6 +74,17 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "fvQ_gu0CA",
+      "uuid": "63f44e18-c0ff-4906-a69d-8e337b7dbaf8",
+      "firstName": "okabe",
+      "lastName": "rintarou",
+      "username": "okarin97",
+      "password": "$2a$10$UaeW3TNtdlmlQsI2ZTIm5./mLIl6zIBtvFHLdll6iFFo9CwQT3HIu",
+      "balance": 0,
+      "createdAt": "2025-09-01T15:48:26.961Z",
+      "modifiedAt": "2025-09-01T15:48:26.961Z"
     }
   ],
   "contacts": [

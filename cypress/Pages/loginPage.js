@@ -5,7 +5,7 @@ class LoginPage {
             loginInput: "[name='username']",
             passwordInput: "[name='password']",
             btnLogin: "button[type='submit']",
-            wrongCredentialsMessage: "[role='alert']"
+            wrongCredentialsMessage: "[role='alert']",
         }
         return selectors
     }
@@ -19,6 +19,14 @@ class LoginPage {
         cy.get(this.selectorsList().passwordInput).type(password),
         cy.get(this.selectorsList().btnLogin).click()
     }
+    
+    LoginInvalid(username, password) {
+        cy.get(this.selectorsList().loginInput).type(username),
+        cy.get(this.selectorsList().passwordInput).type(password),
+        cy.get(this.selectorsList().btnLogin).click(),
+        cy.get(this.selectorsList().wrongCredentialsMessage).should('be.visible')
+    }
+
 }
 
 export default LoginPage
