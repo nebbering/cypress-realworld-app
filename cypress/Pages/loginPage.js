@@ -2,16 +2,36 @@ class LoginPage {
     
     selectorsList() {
         const selectors = {
-            loginInput: "[name='username']",
+            firstNameInput: "[name='firstName']",
+            lastNameInput: "[name='lastName']",
+            nameInput: "[name='username']",
+            userNameInput: "[name='username']",
             passwordInput: "[name='password']",
-            btnLogin: "button[type='submit']",
+            confirmPasswordInput: "[name='confirmPassword']",
             wrongCredentialsMessage: "[role='alert']",
+            btnLogin: "button[type='submit']",
+            btnSignUp: "[data-test='signup-submit']",
+            btnCreateSignUp: "a[href='/signup']"
         }
         return selectors
     }
 
     acessLoginPage() {
         cy.visit('/signin')
+    }
+
+    acessSignUp() {
+        cy.get(this.selectorsList().btnCreateSignUp).click()
+        cy.url().should('include', '/signup')
+
+        cy.get(this.selectorsList().firstNameInput).type('Kyouma'),
+        cy.get(this.selectorsList().lastNameInput).type('Rintarou'),
+        cy.get(this.selectorsList().userNameInput).type('kyouma97'),
+        cy.get(this.selectorsList().passwordInput).type('admin123'),
+        cy.get(this.selectorsList().confirmPasswordInput).type('admin123'),
+        cy.get(this.selectorsList().btnSignUp).click()
+        
+        cy.url().should('include', '/signin')
     }
 
     loginValid(username, password) {
