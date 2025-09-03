@@ -3,12 +3,17 @@ import dataUser from '../fixtures/dataUser.json'
 
 const loginPage = new LoginPage()
 
-describe('Registro de novo usuário com sucesso', () => {
+describe('C01: CADASTRO DE NOVO USUÁRIO', () => {
     beforeEach(() => {
         loginPage.acessLoginPage()
     })
 
-    it.only('Deve registrar um novo usuário com informações válidas', () => {
+    it.only('C01-CT01: CADASTRO VÁLIDO', () => {
+    
+        loginPage.acessSignUp()
+
+    })
+        it('C01-CT02: CADASTRO INVÁLIDO', () => {
     
         loginPage.acessSignUp()
 
@@ -16,7 +21,7 @@ describe('Registro de novo usuário com sucesso', () => {
 
 })
 
-describe('Login com sucesso', () => {
+describe('Feature - LOGIN', () => {
     beforeEach(() => {
         loginPage.acessLoginPage()
     })
