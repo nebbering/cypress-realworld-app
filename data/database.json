@@ -217,6 +217,138 @@
       "balance": 0,
       "createdAt": "2025-09-03T17:46:14.512Z",
       "modifiedAt": "2025-09-03T17:46:14.512Z"
+    },
+    {
+      "id": "VPzhysnHc",
+      "uuid": "c56a81d5-1682-4c16-be18-63e5058780d3",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$4GVYRhg.Asyl7VdDBl7pm.ZJ2.Tk9RthTmtPTfSQANb4XFX9ZakQq",
+      "balance": 0,
+      "createdAt": "2025-09-03T17:57:40.240Z",
+      "modifiedAt": "2025-09-03T17:57:40.240Z"
+    },
+    {
+      "id": "ZvFtdxmyX",
+      "uuid": "26deb678-4048-489b-bbc9-14e390080510",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$BOOh9W3UUd7z.ZRhdCjSpOzsOGzPr.7hKjIEBNXKYawfAE4UPHtq6",
+      "balance": 0,
+      "createdAt": "2025-09-03T17:57:49.587Z",
+      "modifiedAt": "2025-09-03T17:57:49.587Z"
+    },
+    {
+      "id": "ijIr_gPzC",
+      "uuid": "8b7cd5e4-80de-4224-8aaa-d85523afd3bf",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$2FoTDlDkpbviQvhSh2fptuUXHJE98RNU8Xh9bpItfwW0MuiyaWPZ.",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:05:58.830Z",
+      "modifiedAt": "2025-09-03T18:05:58.830Z"
+    },
+    {
+      "id": "R1bPcrzew",
+      "uuid": "5f1e88c4-106b-402c-9885-d0b3da2cf751",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$QyATuQxQOZRSi9U45nAr/Ouwkytt8W7n4cZqE3q3zEJXfCrQfUFue",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:14:36.487Z",
+      "modifiedAt": "2025-09-03T18:14:36.487Z"
+    },
+    {
+      "id": "NnNOjQhz0",
+      "uuid": "0822262f-c6ee-4ca7-a57d-1ed93d4317dc",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$.dU8vifNeP91PPmio00bu.O6sgRS6RiKuWnK60ZvHr/L7ynDGZVGy",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:14:44.999Z",
+      "modifiedAt": "2025-09-03T18:14:44.999Z"
+    },
+    {
+      "id": "GkZu6kyV0",
+      "uuid": "a2076e90-2b96-4cbb-a0aa-59f08d92ae43",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$8401mE6re8tO5D5GwvVxYOmglI/4XnkkUeUG3fgWm/LMOgMwcPlQm",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:16:19.737Z",
+      "modifiedAt": "2025-09-03T18:16:19.737Z"
+    },
+    {
+      "id": "252BgVE6b",
+      "uuid": "27fbaf4f-7b94-4f06-9f0f-d75f3a2a5b8e",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$Lh34HyNDBwG0cR0Dj7FsTeOHc9jnGO7eohlFgThHR0OsQPd99ckxq",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:23:03.868Z",
+      "modifiedAt": "2025-09-03T18:23:03.868Z"
+    },
+    {
+      "id": "E-eMRIaDU",
+      "uuid": "8732fb86-2dd5-47fa-836a-5fdecd724cb6",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$8wpM6dBOXI65vJy8f.HKBOTIIOiZ7eNSzbKN2Qx1l7XyIPG/eVyY6",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:23:16.167Z",
+      "modifiedAt": "2025-09-03T18:23:16.167Z"
+    },
+    {
+      "id": "EXFCmEPVg",
+      "uuid": "7ce40421-c06d-4ec5-9734-157af1c198ce",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$Nb0zVRgkCaySIbm3fOkCRed29ERsiOEToy6LUbviqh78xmvEkrECW",
+      "balance": 0,
+      "createdAt": "2025-09-03T18:28:38.774Z",
+      "modifiedAt": "2025-09-03T18:28:38.774Z"
+    },
+    {
+      "id": "5GmxIH5yo",
+      "uuid": "967be555-baa1-4ce1-966a-7e382d3dd109",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$c5NhP.CnOfIjiHQ03ouLF.Iru6O.Pr64o6IBtfpjmcGDXpe79sLM6",
+      "balance": 0,
+      "createdAt": "2025-09-03T19:24:46.587Z",
+      "modifiedAt": "2025-09-03T19:24:46.587Z"
+    },
+    {
+      "id": "R8FOAP9tq",
+      "uuid": "c8351429-f910-489f-995b-3d838e3307ef",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$pKowWfqD3z9uwRKXcnM5n.FRtwPDdkguCyb4OTCMj.9vYBudlJmwe",
+      "balance": 0,
+      "createdAt": "2025-09-03T19:28:51.451Z",
+      "modifiedAt": "2025-09-03T19:28:51.451Z"
+    },
+    {
+      "id": "-kzCbUY98",
+      "uuid": "fe2387cc-9e28-4c73-84ac-a047844907ea",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$uotQcIu0HcHC4LaGLU6Sh.nE8KHFS5WSS2/U50sa34CiND1mHcByW",
+      "balance": 0,
+      "createdAt": "2025-09-03T19:31:48.497Z",
+      "modifiedAt": "2025-09-03T19:31:48.497Z"
     }
   ],
   "contacts": [

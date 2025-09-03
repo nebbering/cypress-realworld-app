@@ -8,14 +8,16 @@ describe('C01: CADASTRO DE NOVO USUÁRIO', () => {
         loginPage.acessLoginPage()
     })
 
-    it.only('C01-CT01: CADASTRO VÁLIDO', () => {
-    
-        loginPage.acessSignUp()
+    it('C01-CT01: CADASTRO VÁLIDO', () => {
+
+        loginPage.acessSignUpPage()
+        loginPage.acessSignUpValid()
 
     })
-        it('C01-CT02: CADASTRO INVÁLIDO', () => {
-    
-        loginPage.acessSignUp()
+    it('C01-CT02: CADASTRO INVÁLIDO', () => {
+
+        loginPage.acessSignUpPage()
+        loginPage.acessSignUpInvalid()
 
     })
 

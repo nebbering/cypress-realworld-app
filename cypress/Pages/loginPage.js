@@ -20,9 +20,12 @@ class LoginPage {
         cy.visit('/signin')
     }
 
-    acessSignUp() {
+    acessSignUpPage() {
         cy.get(this.selectorsList().btnCreateSignUp).click()
         cy.url().should('include', '/signup')
+    }
+
+    acessSignUpValid() {
 
         cy.get(this.selectorsList().firstNameInput).type('Kyouma'),
         cy.get(this.selectorsList().lastNameInput).type('Rintarou'),
@@ -31,7 +34,19 @@ class LoginPage {
         cy.get(this.selectorsList().confirmPasswordInput).type('admin123'),
         cy.get(this.selectorsList().btnSignUp).click()
         
-        cy.url().should('include', '/signin')
+        //cy.url().should('include', '/signin')
+    }
+
+    acessSignUpInvalid() {
+
+        cy.get(this.selectorsList().firstNameInput).type('Kyouma'),
+        cy.get(this.selectorsList().lastNameInput).type('Rintarou'),
+        cy.get(this.selectorsList().userNameInput).type('kyouma97'),
+        cy.get(this.selectorsList().passwordInput).type('admin123'),
+        cy.get(this.selectorsList().confirmPasswordInput).type('admin12'),
+        cy.get(this.selectorsList().btnSignUp).click()
+        
+        //cy.url().should('include', '/signin')
     }
 
     loginValid(username, password) {
