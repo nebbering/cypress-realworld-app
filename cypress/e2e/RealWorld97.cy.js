@@ -14,7 +14,7 @@ describe('C01: CADASTRO DE NOVO USUÁRIO', () => {
         loginPage.acessSignUpValid()
 
     })
-    it('C01-CT02: CADASTRO INVÁLIDO', () => {
+    it.only('C01-CT02: CADASTRO INVÁLIDO', () => {
 
         loginPage.acessSignUpPage()
         loginPage.acessSignUpInvalid()
