@@ -14,12 +14,12 @@
 | :---------------------------------------------------------------- |
 | **DADO** que estamos na página de SignUp do RealWorldApp              |
 | **E** preenchemos os campos |
-| First Name       | Kyouma   |
-| Last Name        | Rintarou  |
-| Username         | okarin97  |
-| Password         | admin123  |
-| Confirm Password | admin123  |
-| **QUANDO** clicamos no botão "SIGN UP"                             |
+| *First Name* => Kyouma |
+| *Last Name* => Rintarou |
+| *Username* => okarin97 |
+| *Password* => admin123 |
+| *Confirm Password* => admin123 |
+| **QUANDO** clicamos no botão "SIGN UP" |
 | **ENTÃO** a URL deve conter "/signin" |
 
 | **Critérios de aceitação**                                      |
