@@ -3,18 +3,18 @@ import dataUser from '../fixtures/dataUser.json'
 
 const loginPage = new LoginPage()
 
-describe('C01: CADASTRO DE NOVO USUÁRIO', () => {
+describe('C01: REGISTRO DE USUÁRIO', () => {
     beforeEach(() => {
         loginPage.acessLoginPage()
     })
 
-    it('C01-CT01: CADASTRO VÁLIDO', () => {
+    it('C01-CT01: REGISTRO VÁLIDO', () => {
 
         loginPage.acessSignUpPage()
         loginPage.acessSignUpValid()
 
     })
-    it.only('C01-CT02: CADASTRO INVÁLIDO', () => {
+    it('C01-CT02: REGISTRO INVÁLIDO', () => {
 
         loginPage.acessSignUpPage()
         loginPage.acessSignUpInvalid()
@@ -23,25 +23,18 @@ describe('C01: CADASTRO DE NOVO USUÁRIO', () => {
 
 })
 
-describe('Feature - LOGIN', () => {
+describe('C02: LOGIN', () => {
     beforeEach(() => {
         loginPage.acessLoginPage()
     })
 
-    it('Deve fazer login com um usuário válido', () => {
+    it('C02-CT01: Deve fazer login com um usuário válido', () => {
         
         loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword)
 
     })
 
-})
-
-describe('Tentar fazer login com credenciais inválidas', () => {
-    beforeEach(() => {
-        loginPage.acessLoginPage()
-    })
-
-    it('Deve exibir uma mensagem de erro ao fazer login com credenciais inválidas', () => {
+    it('C02-CT02: Deve exibir uma mensagem de erro ao fazer login com credenciais inválidas', () => {
         
         loginPage.LoginInvalid(dataUser.userInvalid.userName, dataUser.userInvalid.userPassword)
 
