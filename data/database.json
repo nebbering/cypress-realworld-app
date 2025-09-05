@@ -118,6 +118,17 @@
       "balance": 0,
       "createdAt": "2025-09-05T14:30:43.320Z",
       "modifiedAt": "2025-09-05T14:30:43.320Z"
+    },
+    {
+      "id": "BaHpxeQ4t",
+      "uuid": "dca5baec-2505-460e-9d12-42d4643fa1ed",
+      "firstName": "okabe",
+      "lastName": "rintarou",
+      "username": "okarin97",
+      "password": "$2a$10$UoYLKUzf88cZrJN/8ZnaWu5IeXgv7o.Env2Y1hL.UGigrikXXGyr.",
+      "balance": 0,
+      "createdAt": "2025-09-05T14:44:27.836Z",
+      "modifiedAt": "2025-09-05T14:44:27.836Z"
     }
   ],
   "contacts": [

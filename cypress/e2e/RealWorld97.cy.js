@@ -28,13 +28,13 @@ describe('C02: LOGIN', () => {
         loginPage.acessLoginPage()
     })
 
-    it('C02-CT01: Deve fazer login com um usuário válido', () => {
+    it('C02-CT01: Login com Sucesso', () => {
         
         loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword)
 
     })
 
-    it('C02-CT02: Deve exibir uma mensagem de erro ao fazer login com credenciais inválidas', () => {
+    it.only('C02-CT02: Login Inválido', () => {
         
         loginPage.LoginInvalid(dataUser.userInvalid.userName, dataUser.userInvalid.userPassword)
 

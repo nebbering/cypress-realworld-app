@@ -4,7 +4,6 @@ class LoginPage {
         const selectors = {
             firstNameInput: "[name='firstName']",
             lastNameInput: "[name='lastName']",
-            nameInput: "[name='username']",
             userNameInput: "[name='username']",
             passwordInput: "[name='password']",
             confirmPasswordInput: "[name='confirmPassword']",
@@ -49,16 +48,17 @@ class LoginPage {
     }
 
     loginValid(username, password) {
-        cy.get(this.selectorsList().loginInput).type(username),
+        cy.get(this.selectorsList().userNameInput).type(username),
         cy.get(this.selectorsList().passwordInput).type(password),
         cy.get(this.selectorsList().btnLogin).click()
     }
     
     LoginInvalid(username, password) {
-        cy.get(this.selectorsList().loginInput).type(username),
+        cy.get(this.selectorsList().userNameInput).type(username),
         cy.get(this.selectorsList().passwordInput).type(password),
         cy.get(this.selectorsList().btnLogin).click(),
-        cy.get(this.selectorsList().wrongCredentialsMessage).should('be.visible')
+        cy.get(this.selectorsList().wrongCredentialsMessage).should('be.visible'),
+        cy.url().should('include', '/signin')
     }
 
 }
