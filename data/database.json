@@ -129,6 +129,17 @@
       "balance": 0,
       "createdAt": "2025-09-05T14:44:27.836Z",
       "modifiedAt": "2025-09-05T14:44:27.836Z"
+    },
+    {
+      "id": "oi_ejeAPX",
+      "uuid": "ad4324c9-5306-431a-84b2-174ba6916d72",
+      "firstName": "Kyouma",
+      "lastName": "Rintarou",
+      "username": "kyouma97",
+      "password": "$2a$10$aqN1kaTUClCbC3OfmaWdfu5W5RNjXX.ylL./pUR8zfrZaOvvdPzki",
+      "balance": 0,
+      "createdAt": "2025-09-05T14:49:29.440Z",
+      "modifiedAt": "2025-09-05T14:49:29.440Z"
     }
   ],
   "contacts": [

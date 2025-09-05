@@ -34,7 +34,7 @@ describe('C02: LOGIN', () => {
 
     })
 
-    it.only('C02-CT02: Login Inválido', () => {
+    it('C02-CT02: Login Inválido', () => {
         
         loginPage.LoginInvalid(dataUser.userInvalid.userName, dataUser.userInvalid.userPassword)
 
