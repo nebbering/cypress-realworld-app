@@ -1,10 +1,10 @@
-## Cenário 01: CADASTRO DE NOVO USUÁRIO.
+## Cenário 01: REGISTRO DE USUÁRIO.
 
-### Caso de Teste 01: CADASTRO VÁLIDO.
+### Caso de Teste 01: REGISTRO VÁLIDO.
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
-| C01-CT01 | O cadastro será realizado com sucesso. |
+| C01-CT01 | O registro será realizado com sucesso. |
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
