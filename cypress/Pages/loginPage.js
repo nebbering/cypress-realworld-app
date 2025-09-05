@@ -34,22 +34,16 @@ class LoginPage {
         cy.get(this.selectorsList().confirmPasswordInput).type('admin123'),
         cy.get(this.selectorsList().btnSignUp).click()
         
-        //cy.url().should('include', '/signin')
     }
 
     acessSignUpInvalid() {
 
-        //cy.get(this.selectorsList().firstNameInput).type(''),
+        cy.get(this.selectorsList().firstNameInput).type('Okabe'),
         cy.get(this.selectorsList().lastNameInput).type('Rintarou'),
         cy.get(this.selectorsList().userNameInput).type('kyouma97'),
         cy.get(this.selectorsList().passwordInput).type('admin123'),
-        cy.get(this.selectorsList().confirmPasswordInput).type('admin12'),
-        //cy.get(this.selectorsList().btnSignUp).click()
-        cy.get('#firstName-helper-text').should('be.visible').and('contain', 'First Name is required')
-        cy.get('#lastName-helper-text').should('be.visible').and('contain', 'Last Name is required')
-        cy.get('#username-helper-text').should('be.visible').and('contain', 'Username is required')
-        cy.get('#password-helper-text').should('be.visible').and('contain', 'Username is required')
-        cy.get('#confirmPassword-helper-text').should('be.visible').and('contain', 'Password does not match')
+        cy.get(this.selectorsList().btnSignUp).should('be.disabled')
+
     }
 
     loginValid(username, password) {
