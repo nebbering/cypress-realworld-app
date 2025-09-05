@@ -32,7 +32,8 @@ class LoginPage {
         cy.get(this.selectorsList().userNameInput).type('kyouma97'),
         cy.get(this.selectorsList().passwordInput).type('admin123'),
         cy.get(this.selectorsList().confirmPasswordInput).type('admin123'),
-        cy.get(this.selectorsList().btnSignUp).click()
+        cy.get(this.selectorsList().btnSignUp).click(),
+        cy.url().should('include', '/signin')
         
     }
 
@@ -42,7 +43,8 @@ class LoginPage {
         cy.get(this.selectorsList().lastNameInput).type('Rintarou'),
         cy.get(this.selectorsList().userNameInput).type('kyouma97'),
         cy.get(this.selectorsList().passwordInput).type('admin123'),
-        cy.get(this.selectorsList().btnSignUp).should('be.disabled')
+        cy.get(this.selectorsList().btnSignUp).should('be.disabled'),
+        cy.url().should('include', '/signup')
 
     }
 
