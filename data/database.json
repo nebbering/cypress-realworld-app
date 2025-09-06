@@ -319,6 +319,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "yMx-oBt9e",
+      "uuid": "42c40610-4674-475d-924f-9507337588af",
+      "userId": "BaHpxeQ4t",
+      "bankName": "Bank Of Akihabara",
+      "accountNumber": "sdsdsdasdsd",
+      "routingNumber": "101001100",
+      "isDeleted": false,
+      "createdAt": "2025-09-05T16:42:12.536Z",
+      "modifiedAt": "2025-09-05T16:42:12.536Z"
     }
   ],
   "transactions": [
