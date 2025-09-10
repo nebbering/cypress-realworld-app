@@ -76,70 +76,15 @@
       "modifiedAt": "2024-03-07T00:07:36.510Z"
     },
     {
-      "id": "AW-VJl18U",
-      "uuid": "4ef04a89-fdbd-4eda-ad7d-1b4ecc55fef2",
-      "firstName": "Kyouma",
-      "lastName": "Rintarou",
-      "username": "kyouma97",
-      "password": "$2a$10$kR7Fsun8Gb5hQKgzZuZYZOJgK1L76J.h8hAsu34SmKXiFVqAFGaBq",
-      "balance": 0,
-      "createdAt": "2025-09-05T13:50:35.999Z",
-      "modifiedAt": "2025-09-05T13:50:35.999Z"
-    },
-    {
-      "id": "55_agMVOH",
-      "uuid": "d5abd76f-f03f-47c6-8d97-0e73ad0a33f3",
-      "firstName": "Kyouma",
-      "lastName": "Rintarou",
-      "username": "kyouma97",
-      "password": "$2a$10$eEcUzBoqw5l6mHUTEMriMeRqH2X6XIK87HUPzjaTsDdilKEIpvHky",
-      "balance": 0,
-      "createdAt": "2025-09-05T14:28:10.461Z",
-      "modifiedAt": "2025-09-05T14:28:10.461Z"
-    },
-    {
-      "id": "qZrYW6xrz",
-      "uuid": "fba8945e-7fdc-4bd6-9829-efe5d0c36f0e",
-      "firstName": "Kyouma",
-      "lastName": "Rintarou",
-      "username": "kyouma97",
-      "password": "$2a$10$lUox4hF6CQL3ia6WwPoTQ.RmNPljO5tAmNkVOiU2GloUQIC3JYA2u",
-      "balance": 0,
-      "createdAt": "2025-09-05T14:28:41.665Z",
-      "modifiedAt": "2025-09-05T14:28:41.665Z"
-    },
-    {
-      "id": "zDx2LS7eH",
-      "uuid": "a3f8b40e-718f-47e5-b52d-0dcdedab396d",
-      "firstName": "Kyouma",
-      "lastName": "Rintarou",
-      "username": "kyouma97",
-      "password": "$2a$10$Go4BnK8Te/efB9.03o77FeyCQwbu5UU6PQWnX1yBEoQLt7tq4SI.e",
-      "balance": 0,
-      "createdAt": "2025-09-05T14:30:43.320Z",
-      "modifiedAt": "2025-09-05T14:30:43.320Z"
-    },
-    {
-      "id": "BaHpxeQ4t",
-      "uuid": "dca5baec-2505-460e-9d12-42d4643fa1ed",
+      "id": "dgPjSyx5Y",
+      "uuid": "fe0217a8-c113-4864-800f-20c868518e97",
       "firstName": "okabe",
-      "lastName": "rintarou",
-      "username": "okarin97",
-      "password": "$2a$10$UoYLKUzf88cZrJN/8ZnaWu5IeXgv7o.Env2Y1hL.UGigrikXXGyr.",
-      "balance": 0,
-      "createdAt": "2025-09-05T14:44:27.836Z",
-      "modifiedAt": "2025-09-05T14:44:27.836Z"
-    },
-    {
-      "id": "oi_ejeAPX",
-      "uuid": "ad4324c9-5306-431a-84b2-174ba6916d72",
-      "firstName": "Kyouma",
       "lastName": "Rintarou",
-      "username": "kyouma97",
-      "password": "$2a$10$aqN1kaTUClCbC3OfmaWdfu5W5RNjXX.ylL./pUR8zfrZaOvvdPzki",
+      "username": "okarin97",
+      "password": "$2a$10$0BnmVIE3I2a0zJPeIq.HDeUgPDEshjCOlvaC/xrqusx34rASS.FC.",
       "balance": 0,
-      "createdAt": "2025-09-05T14:49:29.440Z",
-      "modifiedAt": "2025-09-05T14:49:29.440Z"
+      "createdAt": "2025-09-10T14:48:01.357Z",
+      "modifiedAt": "2025-09-10T14:48:01.357Z"
     }
   ],
   "contacts": [
@@ -321,15 +266,15 @@
       "modifiedAt": "2024-03-07T08:44:31.174Z"
     },
     {
-      "id": "yMx-oBt9e",
-      "uuid": "42c40610-4674-475d-924f-9507337588af",
-      "userId": "BaHpxeQ4t",
+      "id": "R0zsJls5d",
+      "uuid": "fafd585b-d615-46db-88f5-21b99b4baea5",
+      "userId": "dgPjSyx5Y",
       "bankName": "Bank Of Akihabara",
-      "accountNumber": "sdsdsdasdsd",
-      "routingNumber": "101001100",
+      "accountNumber": "040028922",
+      "routingNumber": "040028922",
       "isDeleted": false,
-      "createdAt": "2025-09-05T16:42:12.536Z",
-      "modifiedAt": "2025-09-05T16:42:12.536Z"
+      "createdAt": "2025-09-10T14:50:19.862Z",
+      "modifiedAt": "2025-09-10T14:50:19.862Z"
     }
   ],
   "transactions": [

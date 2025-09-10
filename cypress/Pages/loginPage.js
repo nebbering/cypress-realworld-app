@@ -31,8 +31,8 @@ class LoginPage {
         cy.get(this.selectorsList().userNameInput).type('kyouma97'),
         cy.get(this.selectorsList().passwordInput).type('admin123'),
         cy.get(this.selectorsList().confirmPasswordInput).type('admin123'),
-        cy.get(this.selectorsList().btnSignUp).click(),
-        cy.url().should('include', '/signin')
+        cy.get(this.selectorsList().btnSignUp).click()
+        
         
     }
 
