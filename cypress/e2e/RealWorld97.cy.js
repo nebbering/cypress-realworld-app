@@ -1,7 +1,9 @@
 import LoginPage from '../Pages/loginPage.js'
+import DashBoardPage from '../Pages/dashBoardPage.js'
 import dataUser from '../fixtures/dataUser.json'
 
 const loginPage = new LoginPage()
+const dashBoardPage = new DashBoardPage()
 
 describe('C01: REGISTRO DE USUÁRIO', () => {
     beforeEach(() => {
@@ -35,6 +37,26 @@ describe('C02: LOGIN', () => {
     })
 
     it('C02-CT02: Login Inválido', () => {
+        
+        loginPage.LoginInvalid(dataUser.userInvalid.userName, dataUser.userInvalid.userPassword)
+
+    })
+
+})
+
+describe('C03: ENVIAR DINHEIRO', () => {
+    beforeEach(() => {
+        loginPage.acessLoginPage()
+    })
+
+    it.only('C03-CT01: Enviar Dinheiro com Saldo Suficiente', () => {
+        
+        loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword),
+        dashBoardPage.newTransaction()
+
+    })
+
+    it('C03-CT02: Enviar Dinheiro com Saldo Insuficiente', () => {
         
         loginPage.LoginInvalid(dataUser.userInvalid.userName, dataUser.userInvalid.userPassword)
 
