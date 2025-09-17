@@ -11,7 +11,7 @@
       "phoneNumber": "398-225-9900",
       "avatar": "https://avatars.dicebear.com/api/human/uBmeaz5pX.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 160953,
+      "balance": 165953,
       "createdAt": "2023-03-09T22:26:40.101Z",
       "modifiedAt": "2024-03-07T10:07:57.580Z"
     },
@@ -9899,6 +9899,17 @@
       "status": "complete",
       "createdAt": "2025-09-17T20:22:52.317Z",
       "modifiedAt": "2025-09-17T20:22:52.317Z"
+    },
+    {
+      "id": "D02G54PC6",
+      "uuid": "4650b2ce-a02f-4760-8566-3e23c69a0f2a",
+      "amount": 5000,
+      "description": "Dinheiro para o café",
+      "receiverId": "uBmeaz5pX",
+      "senderId": "UEKSceZbn",
+      "status": "complete",
+      "createdAt": "2025-09-17T20:25:51.410Z",
+      "modifiedAt": "2025-09-17T20:25:51.410Z"
     }
   ],
   "likes": [
@@ -10495,6 +10506,16 @@
       "isRead": false,
       "createdAt": "2025-09-17T20:22:52.447Z",
       "modifiedAt": "2025-09-17T20:22:52.447Z"
+    },
+    {
+      "id": "V2amfeghO0",
+      "uuid": "04116114-43b3-4a9b-aa68-3b1be79d15a9",
+      "userId": "uBmeaz5pX",
+      "transactionId": "D02G54PC6",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2025-09-17T20:25:51.455Z",
+      "modifiedAt": "2025-09-17T20:25:51.455Z"
     }
   ],
   "banktransfers": [
@@ -11067,6 +11088,16 @@
       "type": "withdrawal",
       "createdAt": "2025-09-17T20:22:52.366Z",
       "modifiedAt": "2025-09-17T20:22:52.366Z"
+    },
+    {
+      "id": "lcELvx9Jj_",
+      "uuid": "b35908a4-c65e-4237-9a01-fb10d90b76ef",
+      "userId": "UEKSceZbn",
+      "amount": 5000,
+      "transactionId": "D02G54PC6",
+      "type": "withdrawal",
+      "createdAt": "2025-09-17T20:25:51.423Z",
+      "modifiedAt": "2025-09-17T20:25:51.423Z"
     }
   ]
 }
