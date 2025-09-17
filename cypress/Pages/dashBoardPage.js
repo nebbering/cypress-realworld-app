@@ -15,6 +15,17 @@ class dashBoardPage {
     
     newTransaction() {
         cy.get(this.selectorsList().btnNewTransaction).click()
+
+        cy.get('[data-test="sidenav-user-balance"]')
+            .invoke('text')
+            .then((texto) => {
+                const numero = parseFloat(texto.replace('$', '').trim())
+
+                if (numero >= 0.00) {
+                cy.log(`⚠️ Valor insuficiente: saldo atual = ${numero}`)
+                }
+            })
+
         cy.get(this.selectorsList().clickContact).click()
         cy.get(this.selectorsList().inputValueAmount).type('50')
         cy.get(this.selectorsList().inputNote).type('Dinheiro para o café')
