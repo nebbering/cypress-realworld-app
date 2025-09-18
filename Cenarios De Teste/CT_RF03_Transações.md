@@ -23,7 +23,7 @@
 
 ---
 
-### Caso de Teste 02: LOGIN INVÁLIDO
+### Caso de Teste 02: TRANSAÇÃO COM SALDO INSUFICIENTE
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |

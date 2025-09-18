@@ -49,14 +49,14 @@ describe('C03: TRANSAÇÕES', () => {
         loginPage.acessLoginPage()
     })
 
-    it('C03-CT01: Fazer transação com saldo suficiente para um contato', () => {
+    it('C03-CT01: Transação com Saldo Suficiente', () => {
         
         loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword),
         dashBoardPage.newTransaction()
 
     })
 
-    it('C03-CT02: Tentar fazer transação com saldo INSUFICIENTE para um contato', () => {
+    it('C03-CT02: Tentar Fazer Transação com Saldo Insuficiente', () => {
         
         loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword),
         dashBoardPage.newTransactionError()
