@@ -44,19 +44,19 @@ describe('C02: LOGIN', () => {
 
 })
 
-describe('C03: ENVIAR DINHEIRO', () => {
+describe('C03: TRANSAÇÕES', () => {
     beforeEach(() => {
         loginPage.acessLoginPage()
     })
 
-    it('C03-CT01: Enviar Dinheiro com Saldo Suficiente', () => {
+    it('C03-CT01: Fazer transação com saldo suficiente para um contato', () => {
         
         loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword),
         dashBoardPage.newTransaction()
 
     })
 
-    it.only('C03-CT02: Enviar Dinheiro com Saldo Insuficiente', () => {
+    it('C03-CT02: Tentar fazer transação com saldo INSUFICIENTE para um contato', () => {
         
         loginPage.loginValid(dataUser.userValid.userName, dataUser.userValid.userPassword),
         dashBoardPage.newTransactionError()
