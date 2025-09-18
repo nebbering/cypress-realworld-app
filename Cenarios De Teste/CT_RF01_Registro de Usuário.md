@@ -28,7 +28,8 @@
 
 ---
 
-### Caso de Teste 02: CADASTRO INVÁLIDO
+### Caso de Teste 02: REGISTRO INVÁLIDO
+
 
 | ID       | Descrição                                                |
 | :------- | :------------------------------------------------------- |
